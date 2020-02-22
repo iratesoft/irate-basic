@@ -3,3 +3,4 @@ composer.lock
 Logs/*.txt
 *.tpl.php
 Application/Config.php
+.DS_Store
