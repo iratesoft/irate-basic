@@ -1,0 +1,25 @@
+{
+  "name": "irate-basic-app",
+  "type": "library",
+  "homepage": "https://github.com/RobertGrubb/iratephp",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Matt Grubb",
+      "email": "matt@grubb.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "smarty/smarty": "^3.1",
+    "iratesoft/irate": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Application\\": "Application/"
+    }
+  },
+  "support": {
+    "email": "mgrubb0507@gmail.com"
+  }
+}

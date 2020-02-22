@@ -1,0 +1,5 @@
+vendor
+composer.lock
+Logs/*.txt
+*.tpl.php
+Application/Config.php
