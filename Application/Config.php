@@ -7,13 +7,13 @@ namespace Application;
  */
 class Config
 {
-    const BASE_URL    = '/';
+    const BASE_URL    = '';
 
     /**
      * Database vars
      * We only support MySQL at this time.
      */
-    const DB_HOST     = false;
+    const DB_HOST     = '';
     const DB_NAME     = '';
     const DB_USER     = '';
     const DB_PASSWORD = '';
@@ -45,7 +45,35 @@ class Config
 
     ];
 
-    const ENCODING_KEY = '00c8d295cc0421563f3160e79f119e34';
+    /**
+     * Unique Key for encoding/decoding strings in Security class.
+     * @var string
+     */
+    const ENCODING_KEY = '7e95d3583eb4e0e9a76d09149d019d03';
+
+    /**
+     * SMTP HOST
+     * @var string
+     */
+    const SMTP_HOST = '';
+
+    /**
+     * SMTP USERNAME
+     * @var string
+     */
+    const SMTP_USERNAME = '';
+
+    /**
+     * SMTP PASSWORD
+     * @var string
+     */
+    const SMTP_PASSWORD = '';
+
+    /**
+     * SMTP PORT
+     * @var integer
+     */
+    const SMTP_PORT = 587;
 
     /**
      * Parameters that you may use throughout your application

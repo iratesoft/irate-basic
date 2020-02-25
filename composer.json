@@ -1,7 +1,7 @@
 {
-  "name": "irate-basic-app",
+  "name": "iratesoft/irate-basic",
   "type": "library",
-  "homepage": "https://github.com/RobertGrubb/iratephp",
+  "homepage": "https://github.com/iratesoft/irate-basic",
   "license": "MIT",
   "authors": [
     {

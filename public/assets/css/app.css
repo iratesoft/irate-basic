@@ -4,6 +4,10 @@ body{
   font-family: 'Nunito', sans-serif;
 }
 
+.container {
+  max-width: 90%;
+}
+
 .field.has-addons {
   display: flex;
   justify-content: center;
