@@ -22,6 +22,16 @@
       <a class="navbar-item" href="{$baseUrl}">
         Home
       </a>
+
+      {if $session->userData('loggedIn')}
+        <a class="navbar-item" href="{$baseUrl}/user/logout">
+          Logout ({$session->userData('username')})
+        </a>
+      {else}
+        <a class="navbar-item" href="{$baseUrl}/user/login">
+          Login
+        </a>
+      {/if}
     </div>
   </div>
 </nav>
