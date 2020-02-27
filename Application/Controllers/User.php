@@ -55,9 +55,7 @@ class User extends \Irate\Core\Controller {
   /**
    * Placeholder for registration process.
    */
-  protected function register() {
-
-  }
+  protected function register() { }
 
   /**
    * Responsible for handling the user logout
